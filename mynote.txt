@@ -160,10 +160,30 @@
     可以为每台主机在GitHub账号中创建SSH密钥。
 ）
 
-## 
-
-
-
+## 关联本地与远程仓库
+1、在GitHub账户上创建一个空仓库
+2、在本地仓库git bash here输入（
+    $ git remote add origin git@github.com:GitHub账号名/空仓库名.git
+    进行关联
+）
+3、将本地仓库首次推送到远程仓库（
+    $ git push -u origin master
+    首次把本地仓库全部推送到远程仓库（首次加上-u）
+    
+    $ git push origin master
+    以后每次推送到远程
+）
+4、克隆远程仓库创建本地仓库（
+    先在git bash here里cd到某一目录，
+    再输入
+    $ git clone 仓库地址
+    这样就把远程仓库克隆到本地了。
+    
+    克隆远程仓库某一分支
+    $ git clone -b 分支名 仓库地址
+    ...
+）
+    
 
 
 
