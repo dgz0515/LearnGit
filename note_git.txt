@@ -135,7 +135,32 @@
     只能恢复到最新版本。
 ）
     
+
+
+# note about github
+
+## 注册登陆并设置SSH密钥（
+    在https://github.com/官网注册账号，
+    登陆，
+    创建一个SSH密钥。
     
+    创建SSH密钥：
+    在本地用户目录下是否有.ssh文件夹，里面是否有id_rsa和id_rsa.pub文件；
+    没有，则在git bash here输入
+    $ ssh-keygen -t rsa -C "邮箱"
+    然后，再次确认是否有那两个文件；
+    有，则在GitHub账户的设置中创建SSH密钥，
+    在Title设置一个密钥名，
+    再把id_rsa.pub文件中的内容复制到Key里。
+    
+    id_rsa里面是私钥，id_rsa.pub里面是公钥。
+    私钥不可泄漏。
+    
+    如果，想在多台主机使用一个GitHub账号的仓库，
+    可以为每台主机在GitHub账号中创建SSH密钥。
+）
+
+git@github.com:dgz0515/Castle.git
 
 
 
