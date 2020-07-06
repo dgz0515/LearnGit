@@ -167,11 +167,6 @@
     $ git log --graph --pretty=oneline --abbrev-commit
     可以查看分支合并的具体情况。
     
-测试合并时的conflict
-
-
-test merge conflict
-
 
 
 
