@@ -17,7 +17,7 @@
 
 
 ## 下载git（仅是Windows）
-首先，从官网https://git-scm.com/downloads下载并安装git；
+首先，从官网https://git-scm.com/downloads 下载并安装git；
 
 然后，在某一文件夹的空白处右键单击，找找Git Bash Here命令；
 
